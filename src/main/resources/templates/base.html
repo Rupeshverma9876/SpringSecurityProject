@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<title>login page </title>
+</head>
+<body>
+<div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light mb-5  ">
+<button class="nav-link text-body btn btn-warning text-center mt-4 w-100">  spring security concept</button>
+</nav>
+</div>
+<div  >
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<ul class="navbar-nav mx-auto flex-row">
+<li class="nav-item active mx-5">
+<a  class="nav-link text-body btn btn-primary " th:href = "@{/register}"> register button </a>
+</li>
+
+<li class="nav-item active mx-5">
+  <a class="nav-link text-body btn btn-outline-warning " th:href = "@{/about}"> about button </a>
+</li>
+
+<li  class="nav-item active mx-5">
+<a  class="nav-link text-body btn btn-outline-primary " th:href = "@{/profile}"> profile button </a>
+</li>
+
+<li  class="nav-item active mx-5">
+<a  class="nav-link text-body btn btn-warning " th:href = "@{/login}"> login button </a>
+</li>
+
+<li  class="nav-item active mx-5">
+<a  class="nav-link text-body btn btn-outline-primary " th:href = "@{/user}"> User Details </a>
+</li>
+</ul>
+</nav>
+</div>
+<div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light mt-5 mb-5  ">
+<button class="nav-link text-body btn btn-primary text-center mt-4 w-100">login and logout page with spring authentication and authorization page with full spring security concept</button>
+</nav>
+</div>
+
+
+</body>
+</html>
